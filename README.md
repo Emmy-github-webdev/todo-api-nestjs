@@ -71,6 +71,22 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Note
+- Generate user module
+```
+nest generate module users
+```
+
+- Generate user services
+```
+nest g service users/services/users
+```
+
+- Generate user controller
+```
+nest g controller users/controllers/users
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
