@@ -87,6 +87,24 @@ nest g service users/services/users
 nest g controller users/controllers/users
 ```
 
+## Authenticataion
+
+> I use two authentication strategy
+_Local Password Strategy_
+
+```
+npm install --save @nestjs/passport passport passport-local
+npm install --save-dev @types/passport-local
+npm install bcrypt --save
+```
+
+_JWT Passport Strategy_
+
+```
+npm install @nestjs/jwt passport-jwt
+npm install @types/passport-jwt --save-dev
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
