@@ -28,11 +28,14 @@
 
 ## Dependencies
 
+_Database Configuration_
+
 ```
 npm install -g sequelize
 npm install --save sequelize sequelize-typescript pg-hstore pg
 npm install --save-dev @types/sequelize
 npm install dotenv --save
+npm i --save @nestjs/config
 
 ```
 
