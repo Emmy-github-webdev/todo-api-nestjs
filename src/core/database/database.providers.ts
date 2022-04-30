@@ -21,7 +21,7 @@ export const databaseProviders = [{
            config = databaseConfig.development;
         }
         const sequelize = new Sequelize(config);
-        sequelize.addModels([ User ]);
+        sequelize.addModels([User]);
         await sequelize.sync();
         return sequelize;
     },
