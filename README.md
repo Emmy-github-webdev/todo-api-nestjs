@@ -26,6 +26,16 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Dependencies
+
+```
+npm install -g sequelize
+npm install --save sequelize sequelize-typescript pg-hstore pg
+npm install --save-dev @types/sequelize
+npm install dotenv --save
+
+```
+
 ## Installation
 
 ```bash
