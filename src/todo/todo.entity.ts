@@ -35,5 +35,5 @@ export class Todo extends Model<Todo> {
     @Column({
         type: DataType.DATE,
     })
-    completed_at: Date;
+    finish_at: Date;
 }
