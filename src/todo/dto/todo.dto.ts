@@ -1,5 +1,4 @@
-import { IsNotEmpty, MinLength } from "class-validator";
-import { Is } from "sequelize-typescript";
+import { IsNotEmpty, MinLength, IsEnum } from "class-validator";
 
 enum Status {
     LOGGED = 'logged',
@@ -15,6 +14,10 @@ export class TodoDto {
     @IsNotEmpty()
     readonly description: string;
 
+    @IsNotEmpty()
+    @IsEnum(Status, {
+        message: 'Status must be either logged, in-progress or finished',
+    })
     readonly status: Status;
 
     @IsNotEmpty()
