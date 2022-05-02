@@ -105,6 +105,12 @@ npm install @nestjs/jwt passport-jwt
 npm install @types/passport-jwt --save-dev
 ```
 
+## Validation
+
+```
+npm i class-validator class-transformer --save
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
