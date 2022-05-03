@@ -3,6 +3,7 @@ import { User } from '../users/user.entity';
 import { Todo } from './todo.entity';
 import { TodoDto } from './dto/todo.dto';
 import { TODO_REPOSITORY } from '../core/constants';
+import { UpdateTodoDto }from './dto/updateTodoDTO.dto';
 
 @Injectable()
 export class TodoService {
@@ -40,6 +41,6 @@ export class TodoService {
            {...data},
            {where: { id, userID}, returning: true }
        );
-       return { numberOfAffectedRows, updatedTodo };
+       return { numberOfAffectedRows, updatedTodo, UpdateTodoDto };
     }
 }

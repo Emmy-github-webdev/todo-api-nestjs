@@ -11,8 +11,8 @@ export class TodoController {
     constructor(private readonly todoService: TodoService) { }
 
     @Get()
-    async findAll(userID){
-        return await this.todoService.findAll(userID)
+    async findAll(userID) {
+        return await this.todoService.findAll(userID);
     }
    
     @Get(':id')
