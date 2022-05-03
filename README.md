@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Build Todo API using NestJS.
 
 ## Dependencies
 
@@ -37,54 +37,6 @@ npm install --save-dev @types/sequelize
 npm install dotenv --save
 npm i --save @nestjs/config
 
-```
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Note
-- Generate user module
-```
-nest generate module users
-```
-
-- Generate user services
-```
-nest g service users/services/users
-```
-
-- Generate user controller
-```
-nest g controller users/controllers/users
 ```
 
 ## Authenticataion
@@ -111,15 +63,36 @@ npm install @types/passport-jwt --save-dev
 npm i class-validator class-transformer --save
 ```
 
-## Support
+## Installation
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- Clone git@github.com:Emmy-github-webdev/todo-api-nestjs.git
+- cd todo-api-nestjs
+- npm install
+- npm start
+
+## watch mode
+- npm run start:dev
+
+## Note
+- Generate user module
+```
+nest generate module users
+```
+
+- Generate user services
+```
+nest g service users/services/users
+```
+
+- Generate user controller
+```
+nest g controller users/controllers/users
+```
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- GitHub: [Emmy-github-webdev](https://github.com/Emmy-github-webdev)
+- LinkedIn: [emmanuelogah](https://www.linkedin.com/in/emmanuelogaho/)
 
 ## License
 
